@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+  font-family: Roboto,arial;
+}
+
+#side-box{
+  margin-top: 4rem;
+  position: fixed;
+  top: 0rem;
+  bottom: 0rem;
+  left: 0rem;
+  width: 5rem;
+  border: solid 0.1rem rgb(208, 202, 202);
+  border-top: 0rem;
+  background-color: white;
+}
+
+#home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: 0.15s;
+}
+#home:hover{
+  background-color: #a7a2a23d;
+  border-radius: 0.6rem;
+}
+#home:active{
+  opacity: 0.6;
+}
+#home1{
+  width: 1.5rem;
+  padding: 0.1rem;
+}
+#home2{
+  font-size: small;
+  margin-top: 0rem;
+}
+
+#explore{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: 0.15s;
+}
+#explore:hover{
+  background-color: #a7a2a23d;
+  border-radius: 0.2rem;
+
+}
+#explore:active{
+  opacity: 0.6;
+}
+#explore1{
+  width: 1.5rem;
+  padding: 0.1rem;
+}
+#explore2{
+  font-size: small;
+  margin-top: 0rem;
+}
+
+#sub{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: 0.15s;
+}
+#sub:hover{
+  background-color: #a7a2a23d;
+  border-radius: 0.2rem;
+}
+#sub:active{
+  opacity: 0.6;
+}
+#sub1{
+  width: 1.5rem;
+  padding: 0.1rem;
+}
+#sub2{
+  font-size: small;
+  margin-top: 0rem;
+}
+
+#originals{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: 0.15s;
+}
+#originals:hover{
+  background-color: #a7a2a23d;
+  border-radius: 0.2rem;
+}
+#originals:active{
+  opacity: 0.6;
+}
+#originals1{
+  width: 1.5rem;
+  padding: 0.1rem;
+}
+#originals2{
+  font-size: small;
+  margin-top: 0rem;
+}
+
+#music{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: 0.15s;
+}
+#music:hover{
+  background-color: #a7a2a23d;
+  border-radius: 0.2rem;
+}
+#music:active{
+  opacity: 0.6;
+}
+#music1{
+  width: 1.5rem;
+  padding: 0.1rem;
+}
+#music2{
+  font-size: small;
+  margin-top: 0rem;
+}
+
+#library{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: 0.15s;
+}
+#library:hover{
+  background-color: #a7a2a23d;
+  border-radius: 0.2rem;
+}
+#library:active{
+  opacity: 0.6;
+}
+#library1{
+  width: 1.5rem;
+  padding: 0.1rem;
+}
+#library2{
+  font-size: small;
+  margin-top: 0rem;
+}
+
+

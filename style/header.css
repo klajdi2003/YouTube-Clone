@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+  font-family: Roboto,arial;
+}
+
+#header{
+  position: fixed;
+  left: 0rem;
+  right: 0rem;
+  top: 0rem;
+  border: solid 0.1rem rgb(208, 202, 202);
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+
+#left{
+  display: flex;
+  flex-direction: row;
+}
+#hamburger{
+  padding: 0.5rem;
+  width: 1.6rem;
+  margin-left: 1.2rem;
+  cursor: pointer;
+  transition: 0.15s;
+}
+#hamburger:hover{
+  background-color: rgba(198, 195, 195, 0.728);
+  border-radius: 100%;
+}
+#hamburger:active{
+  opacity: 0.7;
+}
+#yu-logo{
+  width: 5.7rem;
+  margin-left: 1.2rem;
+  cursor: pointer;
+}
+
+#middle{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#search-box{
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  padding-left: 1rem;
+  padding-right: 20rem;
+  margin-left: 5rem;
+  border: solid 0.1rem rgba(128, 128, 128, 0.62);
+  font-family: Roboto,arial;
+  font-size: medium;
+  border-right: 0rem;
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+#search-box:focus{
+  outline: none;
+  box-shadow: 0rem 0rem 0.2rem rgba(128, 128, 128, 0.62);
+}
+#search-button{
+  padding: 0.45rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  margin-right: 0.5rem;
+  border: solid 0.1rem rgba(128, 128, 128, 0.62);
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  cursor: pointer;
+}
+#search-button:hover{
+  opacity: 0.8;
+}
+#search-button:active{
+  opacity: 0.6;
+}
+#search-image{
+  width: 1.5rem;
+}
+#mic{
+  width: 1.7rem;
+  padding: 0.5rem;
+  margin-left: 0.6rem;
+  background-color: rgb(248, 248, 248);
+  border: solid 0.1rem rgba(244, 241, 241, 0.815);
+  border-radius: 100%;
+  cursor: pointer;
+  transition: 0.15s;
+
+}#mic:hover{
+  background-color: rgba(198, 195, 195, 0.728);
+}
+#mic:active{
+  opacity: 0.7;
+}
+
+#right{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 1.3rem;
+}
+#add-create{
+  margin-right: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-width: 0rem;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  border-radius: 1.5rem;
+  cursor: pointer;
+}
+#add-create:hover{
+  background-color: rgba(198, 195, 195, 0.728);
+}
+#add-create:active{
+  opacity: 0.7;
+}
+#add{
+  width: 1.8rem;
+  height: 1.8rem;
+  margin-left: 0.4rem;
+}
+#create{
+  font-family: Roboto,arial;
+  font-weight: bold;
+  color: rgb(69, 67, 67);
+  margin-right: 1rem;
+  margin-left: 0.2rem;
+}
+#bell{
+  padding: 0.5rem;
+  width: 1.7rem;
+  margin-right: 1.7rem;
+  cursor: pointer;
+  transition: 0.15s;
+}
+#bell:hover{
+  background-color: rgba(198, 195, 195, 0.728);
+  border-radius: 100%;
+}
+#bell:active{
+  opacity: 0.7;
+}
+#profile{
+  width: 2rem;
+  border-radius: 100%;
+  cursor: pointer;
+}
